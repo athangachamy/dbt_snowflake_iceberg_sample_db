@@ -2,9 +2,6 @@
 
 {{ config(
     materialized="table",
-    table_format="iceberg",
-    external_volume="iceberg_external_volume",
-    base_location_subpath="agg_ship_modes_hardcoded_pivot",
     tags="hourly",
 ) }}
 
